@@ -1,0 +1,4 @@
+import sqlite3
+conn = sqlite3.connect("C:/Users/oreol/Desktop/Python 2/database/books.db")
+print("Database created/opened successfully")
+conn.close()
